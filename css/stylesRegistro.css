@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark-grey: #2e2e2e;
+    --soft-blue: #597492;
+    --blue-grey: #ADBCCE;
+    --baby-blue: #DDEAF3;
+    --cold-white: #FDFDFD;
+    --cold-blue: rgba(54, 163, 177, 0.055);
+    --blue-aqua: #53b8bb;
+
+    /* --dark-green: #003638;
+    --soft-dgreen: #055052;
+    --blue-aqua: #53b8bb;
+    --soft-beige: #f3f2c9; */
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+}
+
+html,
+body{
+  width:100%;
+  overflow-x:hidden;
+}
+
+header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--soft-blue);
+    box-shadow: 0px 4px 8px rgba(29, 37, 71, 0.657);
+    border-radius: 4px;
+}
+
+header .header--logo {
+    height: 55px;
+}
+
+header h1 {
+    font-size: 3.8rem;
+    font-weight: bold;
+    line-height: 2rem;
+    color: var(--cold-white);  
+}
+
+
+
+header .header-contianer--info {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: var(--cold-blue);
+    text-align: center;
+}
+
+main h2 {
+    margin-top: 30px;
+}
+
+.main-formulario--campos .input-text {
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid #d8d9dd;
+    margin-top: 25px;
+    margin-bottom: 25px;
+      
+}
+
+.main-formulario--campos .input-email {
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid #d8d9dd;
+    margin-bottom: 25px;
+      
+}
+
+.main-formulario--campos .input-password {
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid #d8d9dd;
+    margin-bottom: 25px;
+      
+}
+
+.main-formulario--campos .input-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 180px;
+    height: 25px;
+    outline: none;
+    
+}
+
+.main-formulario--campos .input-email {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 180px;
+    height: 25px;
+    outline: none;
+    
+}
+
+.main-formulario--campos .input-password {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 180px;
+    height: 25px;
+    outline: none;
+    
+}
