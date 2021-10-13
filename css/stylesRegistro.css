@@ -47,19 +47,26 @@ header .header--logo {
     height: 55px;
 }
 
-header h1 {
+header h2 {
     font-size: 3.8rem;
     font-weight: bold;
     line-height: 2rem;
-    color: var(--cold-white);  
+    color: var(--cold-white);
 }
-
-
 
 header .header-contianer--info {
     display: flex;
     align-items: center;
 }
+
+.header-shopping-cart {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+
 
 main {
     display: flex;

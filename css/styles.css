@@ -60,6 +60,14 @@ header .header-contianer--info {
     align-items: center;
 }
 
+.header-container-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+}
+
 .header-button--login {
     width: 55px;
     height: 55px;
@@ -72,6 +80,13 @@ header .header-contianer--info {
     text-decoration: none;
     color: black;
     margin-right: 5px;
+}
+
+.header-shopping-cart {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    align-items: center;
 }
 
 main {
