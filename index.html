@@ -25,9 +25,30 @@
                     <a href="./login.html" class="header-button--login">Ingresar</a>
             </div>
             <div class="header-shopping--menu">
-                    <a href="./cart.html">
                     <img class="header-shopping-cart" src="./graphics/icons/add_shopping_cart.svg" alt="Imagen de un carro de compra"> 
-                    </a>
+                    <span class="quantity-items"></span>
+                    <ul class="dropdown">
+                        <table class="list-shopping-cart">
+                            <thead>
+                                <tr>
+                                    <td><b>Imagen</b> </td>
+                                    <td><b>Nombre</b> </td>
+                                    <td><b>Precio</b> </td>
+                                    <td><b>Cantidad</b> </td>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+
+                        <a href="#" class="button empty-shopping-cart">Vaciar carrito</a>
+                        <div class="total-items">
+                            <span class="price-items"></span>
+                            <button class="pay-items hidden-item"></button>
+                        </div>
+
+                    </ul>
+
             </div>
         </div>
         
