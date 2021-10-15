@@ -1,6 +1,7 @@
 :root {
     --dark-grey: #2e2e2e;
     --soft-blue: #597492;
+    --dark-blue: #153861;
     --blue-grey: #ADBCCE;
     --baby-blue: #DDEAF3;
     --cold-white: #FDFDFD;
@@ -82,12 +83,7 @@ header .header-contianer--info {
     margin-right: 5px;
 }
 
-.header-shopping-cart {
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
-    align-items: center;
-}
+
 
 main {
     width: 100%;
@@ -118,7 +114,7 @@ main .main-learning-container h1 {
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 1.6rem;
-    color: var(--soft-blue);
+    color: var(--dark-blue);
     
 }
 
@@ -133,7 +129,7 @@ main h2 {
     font-size: 2.2rem;
     font-weight: bold;
     line-height: 1.8rem;
-    color: var(--soft-blue);
+    color: var(--dark-blue);
 }
 
 main .main-input--container {
@@ -144,7 +140,6 @@ main .main-input--container {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* top: 420px; */
     left: calc(50% - 120px);
 }
 
@@ -204,7 +199,6 @@ main .course-card--title {
 }
 
 main .course--card_body {
-    /* position: relative; */
     width: 100%;
     height: auto;
     bottom: auto;
@@ -214,6 +208,7 @@ main .course--card_body {
     color: #38608d;
     text-align: center;
     align-content: center;
+    text-decoration: none;
 }
 
 main .course-card .python {
@@ -282,7 +277,7 @@ main .course-card .couching {
     font-size: 2rem;
     font-weight: bold;
     line-height: 2rem;
-    color: var(--soft-blue);
+    color: var(--dark-blue);
 
 }
 .main-schools--engineer,
@@ -424,15 +419,31 @@ footer {
     height: 45px;
     justify-content: space-between;
     align-items: center;
+    justify-content: space-evenly;
     background-color: var(--soft-blue);
     box-shadow: 4px 0px 8px rgba(29, 37, 71, 0.657);
     border-radius: 4px;
 }
 
-footer ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
+footer h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+    color: white;
+}
+
+.footer-nav li {
+    display: inline-block;
+}
+
+.footer-nav li a {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    color: var(--soft-blue);
+    padding: 5px;
+    border-radius: 2px; /*Redondea los bordes de las cajas*/
+    text-decoration: none;
 }
 
 
