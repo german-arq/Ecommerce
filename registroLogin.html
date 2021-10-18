@@ -8,8 +8,8 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500;900&display=swap"
       rel="stylesheet"
     />
-    <title>Ingresar</title>
-    <link rel="stylesheet" href="./css/stylesLogin.css">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./css/stylesRL.css">
 </head>
 <body>
     <header>
@@ -30,10 +30,12 @@
             </a>
         </figure>
     </header>
-
     <main>
-        <h2 class="main--title">¡Inicia sesión con tu cuenta de Learn!</h2>
-        <form action="" class="main-formulario">
+        <h2 class="main--title">Inscríbete y comienza a aprender.</h2>
+        <form action="./profile.html">
+            <div class="main-formulario--campos">
+                <input class="input-text" type="text" placeholder="Nombre completo">
+            </div>
             <div class="main-formulario--campos">
                 <input class="input-email" type="email" placeholder="Correo electrónico">
             </div>
@@ -41,20 +43,25 @@
                 <input class="input-password" type="password" placeholder="Contraseña">
             </div>
             
-            <input class="input-button" type="submit" value="Iniciar sesión">
+            <input class="input-button" type="submit" value="Regístrate">
         </form>
+        <div  class="main-formulario-container-button">
+            <h2 class="main-msj">¿Ya tienes una cuenta?</h2>
 
-        <div>
-            <h2 class="main-msj">¿Aún no tienes cuenta en Learn?</h2>
-        </div>
-
-        <div class="main-formulario-container-button">
-            <a class="main-formulario--button" href="./registro.html">Regístrate</a>
+            <h3 class="main-login--title">¡Inicia sesión con tu cuenta de Learn!</h2>
+            <form action="./profile.html" class="main-formulario">
+                <div class="main-formulario--campos">
+                    <input class="input-login-email" type="email" placeholder="Correo electrónico">
+                </div>
+                <div class="main-formulario--campos">
+                    <input class="input-login-password" type="password" placeholder="Contraseña">
+                </div>
+                
+                <input class="input-login-button" type="submit" value="Iniciar sesión">
+            </form>
         </div>
 
     </main>
-
-    <footer>
-    </footer>
+    <footer></footer>
 </body>
 </html>
